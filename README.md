@@ -1,1 +1,1 @@
-# stats_website_22
+## Applied Statistics class repo
