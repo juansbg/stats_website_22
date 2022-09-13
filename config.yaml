@@ -97,10 +97,8 @@ params:
         title: GDP COMPONENTS OVER TIME
         url: works/gdp
   two:
-    buttonText: Get Started
+    buttonText: Get to know more!
     enable: yes
-    subtitle: "Hi, I'm currently studying a Master's in Analytics and Management at LBS,\n 
-    and in my free time I love to ski, play badminton\n 
-    or watch a scary movie with friends."
+    subtitle: "Hi, I'm currently studying a Master's in Analytics and Management at LBS, and in my free time I love to ski, play badminton or watch a scary movie with friends. I also love to play around with AI, and spend my free time building ML models with python!"
     title: Brief summary about me
-    url: blogs
+    url: about
