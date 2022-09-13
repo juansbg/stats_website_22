@@ -3145,7 +3145,8 @@
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #2a2f4a;
+		background-color: #007435;
+		/*background-color: #242943;*/
 		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.15);
 		cursor: default;
 		font-weight: 600;
@@ -3625,7 +3626,8 @@
 /* Main */
 
 	#main {
-		background-color: #2a2f4a;
+		/*background-color: #2a2f4a;*/
+		background-color: #005427;
 	}
 
 		#main > * {
@@ -3837,7 +3839,8 @@
 		-webkit-pointer-events: none;
 		-ms-pointer-events: none;
 		pointer-events: none;
-		background: rgba(36, 41, 67, 0.9);
+		/*background: rgba(36, 41, 67, 0.9);*/
+		background: rgba(0,116,53,0.8);
 		box-shadow: none;
 		height: 100%;
 		left: 0;
