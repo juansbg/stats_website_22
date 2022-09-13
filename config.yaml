@@ -6,10 +6,9 @@ googleAnalytics: ''
 disqusShortname: ''
 params:
   banner:
-    buttonText: Get Started
+    buttonText: Take a Look
     subtitle: |-
-      A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP
-      AND RELEASED UNDER THE CREATIVE COMMONS.
+      THIS IS MY WEBSITE PORTFOLIO TO SHOWCASE SOME OF MY MOST RECENT PROJECTS
     title: Hi, my name is Juan
   blog: {}
   contact:
@@ -82,9 +81,9 @@ params:
     enable: yes
     showcase:
       - image: pic01.jpg
-        subtitle: Ipsum Dolor Sit Amet
-        title: Aliquam
-        url: blogs/aliquam
+        subtitle: Check out my up-to-date CV
+        title: My CV
+        url: cv
       - image: pic02.jpg
         subtitle: Feugiat Amet Tempus
         title: Tempus
