@@ -61,7 +61,7 @@ params:
   navigation:
     button1:
       - name: Get Started
-        url: blogs
+        url: works
     button2:
       - name: Log In
         url: '#'
@@ -80,30 +80,22 @@ params:
   tiles:
     enable: yes
     showcase:
-      - image: pic01.jpg
-        subtitle: Check out my up-to-date CV
-        title: My CV
-        url: cv
-      - image: pic02.jpg
-        subtitle: Feugiat Amet Tempus
-        title: Tempus
-        url: blogs/tempus
-      - image: pic03.jpg
-        subtitle: Lorem Etiam Nullam
-        title: Magna
-        url: blogs/magna
-      - image: pic04.jpg
-        subtitle: Nisl Sed Aliquam
-        title: Ipsum
-        url: blogs/ipsum
-      - image: pic05.jpg
-        subtitle: Ipsum Dolor Sit Amet
-        title: Consequat
-        url: blogs/ipsum
-      - image: pic06.jpg
-        subtitle: Feugiat Amet Tempus
-        title: Etiam
-        url: blogs/ipsum
+      - image: cv_image.jpg
+        subtitle: Check out my career journey
+        title: MY CV
+        url: about/cv
+      - image: about_me.jpg
+        subtitle: Find out more about me!
+        title: ABOUT ME
+        url: about/me
+      - image: portfolio1.jpg
+        subtitle: Omega Group PLC gender gap analysis
+        title: PAY DISCRIMINATION
+        url: works/omega
+      - image: gdp.jpg
+        subtitle: Time series analysis of country GDP
+        title: GDP COMPONENTS OVER TIME
+        url: works/gdp
   two:
     buttonText: Get Started
     enable: yes
