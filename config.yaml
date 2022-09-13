@@ -49,13 +49,13 @@ params:
       #   url: https://www.facebook.com
       - icon: fa-instagram
         label: Instagram
-        url: https://www.instagram.com
+        url: https://www.instagram.com/juansbg_/
       - icon: fa-github
         label: GitHub
-        url: https://www.github.com
+        url: https://github.com/juansbg
       - icon: fa-linkedin
         label: LinkedIn
-        url: https://www.linkedin.com
+        url: https://www.linkedin.com/in/juan-sanchez-blanco/
   image: ''
   name: Your name
   navigation:
