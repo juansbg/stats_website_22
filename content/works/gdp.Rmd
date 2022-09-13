@@ -1,5 +1,5 @@
 ---
-title: "SGDP Components Over Time and Among Countries"
+title: "GDP Components Over Time and Among Countries"
 author: "Ishaan Khetan, Kathlyn Lee, Emilia Moskala, Juan Sanchez-Blanco, Sylvie Zheng, Jingyi Fang"
 date: "`r Sys.Date()`"
 output:
