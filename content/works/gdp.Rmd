@@ -109,6 +109,13 @@ ggplot(tidy_GDP_for_graph1,
     color = "GDP Components",
     x = "Year",
     y = "Value in $M"
+  ) + theme(
+    panel.background = element_rect(fill='transparent'), #transparent panel bg
+    plot.background = element_rect(fill='transparent', color=NA), #transparent plot bg
+    panel.grid.major = element_blank(), #remove major gridlines
+    panel.grid.minor = element_blank(), #remove minor gridlines
+    legend.background = element_rect(fill='transparent'), #transparent legend bg
+    legend.box.background = element_rect(fill='transparent') #transparent legend panel
   )
 
 ## Note from Kat, the data looks correct, but i cant get the line to work. 
@@ -177,7 +184,14 @@ wider_gdp %>%
                  'Household Expenditure',
                  'Net Exports'
                  )
-      )
+      ) + theme(
+    panel.background = element_rect(fill='transparent'), #transparent panel bg
+    plot.background = element_rect(fill='transparent', color=NA), #transparent plot bg
+    panel.grid.major = element_blank(), #remove major gridlines
+    panel.grid.minor = element_blank(), #remove minor gridlines
+    legend.background = element_rect(fill='transparent'), #transparent legend bg
+    legend.box.background = element_rect(fill='transparent') #transparent legend panel
+  )
   
 ```
 
@@ -249,5 +263,12 @@ wider_gdp %>%
                  'Household Expenditure',
                  'Net Exports'
                  )
-      )
+      ) + theme(
+    panel.background = element_rect(fill='transparent'), #transparent panel bg
+    plot.background = element_rect(fill='transparent', color=NA), #transparent plot bg
+    panel.grid.major = element_blank(), #remove major gridlines
+    panel.grid.minor = element_blank(), #remove minor gridlines
+    legend.background = element_rect(fill='transparent'), #transparent legend bg
+    legend.box.background = element_rect(fill='transparent') #transparent legend panel
+  )
 ```

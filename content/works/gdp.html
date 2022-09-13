@@ -94,6 +94,13 @@ ggplot(tidy_GDP_for_graph1,
     color = &quot;GDP Components&quot;,
     x = &quot;Year&quot;,
     y = &quot;Value in $M&quot;
+  ) + theme(
+    panel.background = element_rect(fill=&#39;transparent&#39;), #transparent panel bg
+    plot.background = element_rect(fill=&#39;transparent&#39;, color=NA), #transparent plot bg
+    panel.grid.major = element_blank(), #remove major gridlines
+    panel.grid.minor = element_blank(), #remove minor gridlines
+    legend.background = element_rect(fill=&#39;transparent&#39;), #transparent legend bg
+    legend.box.background = element_rect(fill=&#39;transparent&#39;) #transparent legend panel
   )</code></pre>
 <p><img src="/works/gdp_files/figure-html/gdp1_code-1.png" width="648" style="display: block; margin: auto;" /></p>
 <pre class="r"><code>## Note from Kat, the data looks correct, but i cant get the line to work. 
@@ -183,7 +190,14 @@ wider_gdp %&gt;%
                  &#39;Household Expenditure&#39;,
                  &#39;Net Exports&#39;
                  )
-      )</code></pre>
+      ) + theme(
+    panel.background = element_rect(fill=&#39;transparent&#39;), #transparent panel bg
+    plot.background = element_rect(fill=&#39;transparent&#39;, color=NA), #transparent plot bg
+    panel.grid.major = element_blank(), #remove major gridlines
+    panel.grid.minor = element_blank(), #remove minor gridlines
+    legend.background = element_rect(fill=&#39;transparent&#39;), #transparent legend bg
+    legend.box.background = element_rect(fill=&#39;transparent&#39;) #transparent legend panel
+  )</code></pre>
 <p><img src="/works/gdp_files/figure-html/gdp2,%20-1.png" width="100%" style="display: block; margin: auto;" /></p>
 <blockquote>
 <p>For all three countries household expenditure is the biggest contributor to the GDP, followed by gross capital formation, government expenditure, and finally Net Exports.</p>
@@ -252,6 +266,13 @@ wider_gdp %&gt;%
                  &#39;Household Expenditure&#39;,
                  &#39;Net Exports&#39;
                  )
-      )</code></pre>
+      ) + theme(
+    panel.background = element_rect(fill=&#39;transparent&#39;), #transparent panel bg
+    plot.background = element_rect(fill=&#39;transparent&#39;, color=NA), #transparent plot bg
+    panel.grid.major = element_blank(), #remove major gridlines
+    panel.grid.minor = element_blank(), #remove minor gridlines
+    legend.background = element_rect(fill=&#39;transparent&#39;), #transparent legend bg
+    legend.box.background = element_rect(fill=&#39;transparent&#39;) #transparent legend panel
+  )</code></pre>
 <p><img src="/works/gdp_files/figure-html/unnamed-chunk-2-1.png" width="648" style="display: block; margin: auto;" /></p>
 </div>
