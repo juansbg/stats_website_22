@@ -14,31 +14,6 @@ output:
 
 
 
-<pre class="r"><code>knitr::opts_chunk$set(
-  message = FALSE, 
-  warning = FALSE, 
-  tidy=FALSE,     # display code as typed
-  size=&quot;small&quot;)   # slightly smaller font for code
-options(digits = 3)
-
-# default figure size
-knitr::opts_chunk$set(
-  fig.width=6.75, 
-  fig.height=6.75,
-  fig.align = &quot;center&quot;
-)</code></pre>
-<pre class="r"><code>library(tidyverse)  # Load ggplot2, dplyr, and all the other tidyverse packages
-library(mosaic)
-library(ggthemes)
-library(GGally)
-library(readxl)
-library(here)
-library(skimr)
-library(janitor)
-library(broom)
-library(tidyquant)
-library(infer)
-library(openintro)</code></pre>
 <div id="gdp-components-over-time-and-among-countries" class="section level1">
 <h1>GDP components over time and among countries</h1>
 <p>At the risk of oversimplifying things, the main components of gross domestic product, GDP are personal consumption (C), business investment (I), government spending (G) and net exports (exports - imports). You can read more about GDP and the different approaches in calculating at the <a href="https://en.wikipedia.org/wiki/Gross_domestic_product">Wikipedia GDP page</a>.</p>
@@ -94,20 +69,8 @@ ggplot(tidy_GDP_for_graph1,
     color = &quot;GDP Components&quot;,
     x = &quot;Year&quot;,
     y = &quot;Value in $M&quot;
-  ) + theme(
-    panel.background = element_rect(fill=&#39;transparent&#39;), #transparent panel bg
-    plot.background = element_rect(fill=&#39;transparent&#39;, color=NA), #transparent plot bg
-    panel.grid.major = element_blank(), #remove major gridlines
-    panel.grid.minor = element_blank(), #remove minor gridlines
-    legend.background = element_rect(fill=&#39;transparent&#39;), #transparent legend bg
-    legend.box.background = element_rect(fill=&#39;transparent&#39;) #transparent legend panel
   )</code></pre>
 <p><img src="/works/gdp_files/figure-html/gdp1_code-1.png" width="648" style="display: block; margin: auto;" /></p>
-<pre class="r"><code>## Note from Kat, the data looks correct, but i cant get the line to work. 
-## Looks correct for scatter
-
-## Hi Kat, I think it&#39;s because the years were characters! Fix: Year = as.integer(Year)
-## I&#39;ll leave this comment so we remember what went wrong and how we fixed it. -Juan</code></pre>
 <p>Secondly, recall that GDP is the sum of Household Expenditure (Consumption <em>C</em>), Gross Capital Formation (business investment <em>I</em>), Government Expenditure (G) and Net Exports (exports - imports). Even though there is an indicator <code>Gross Domestic Product (GDP)</code> in your dataframe, I would like you to calculate it given its components discussed above.</p>
 <blockquote>
 <p>What is the % difference between what you calculated as GDP and the GDP figure included in the dataframe?</p>
@@ -190,14 +153,7 @@ wider_gdp %&gt;%
                  &#39;Household Expenditure&#39;,
                  &#39;Net Exports&#39;
                  )
-      ) + theme(
-    panel.background = element_rect(fill=&#39;transparent&#39;), #transparent panel bg
-    plot.background = element_rect(fill=&#39;transparent&#39;, color=NA), #transparent plot bg
-    panel.grid.major = element_blank(), #remove major gridlines
-    panel.grid.minor = element_blank(), #remove minor gridlines
-    legend.background = element_rect(fill=&#39;transparent&#39;), #transparent legend bg
-    legend.box.background = element_rect(fill=&#39;transparent&#39;) #transparent legend panel
-  )</code></pre>
+      )</code></pre>
 <p><img src="/works/gdp_files/figure-html/gdp2,%20-1.png" width="100%" style="display: block; margin: auto;" /></p>
 <blockquote>
 <p>For all three countries household expenditure is the biggest contributor to the GDP, followed by gross capital formation, government expenditure, and finally Net Exports.</p>
@@ -266,13 +222,6 @@ wider_gdp %&gt;%
                  &#39;Household Expenditure&#39;,
                  &#39;Net Exports&#39;
                  )
-      ) + theme(
-    panel.background = element_rect(fill=&#39;transparent&#39;), #transparent panel bg
-    plot.background = element_rect(fill=&#39;transparent&#39;, color=NA), #transparent plot bg
-    panel.grid.major = element_blank(), #remove major gridlines
-    panel.grid.minor = element_blank(), #remove minor gridlines
-    legend.background = element_rect(fill=&#39;transparent&#39;), #transparent legend bg
-    legend.box.background = element_rect(fill=&#39;transparent&#39;) #transparent legend panel
-  )</code></pre>
+      )</code></pre>
 <p><img src="/works/gdp_files/figure-html/unnamed-chunk-2-1.png" width="648" style="display: block; margin: auto;" /></p>
 </div>
