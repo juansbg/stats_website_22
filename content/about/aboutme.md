@@ -17,6 +17,8 @@ In Madrid I did took two undergraduate degrees in electrical engineering and bus
 
 ## Hobbies
 
+!["Skiing Trip to the Pyrenees"](https://juansbg.netlify.app/about/skiing_trip.jpg)
+
 In the winter I love to spend my time with my family skiing in the Pyrenees in northern Spain, I have been going there since I was 10 years old and I have very fond memories there.
 
 I also love to play badminton in my free time, I have been playing for 8 years in Spain, and I intend to keep playing during my time in London.
@@ -33,5 +35,7 @@ My studies have allowed me to develop technical skills and abilities that will b
 ## Interests
 
 I've always been passionate about artificial intelligence. I remember being fascinated by the concept of creating a machine that could think and learn like a human. When I first heard about DALL-E, I was intrigued. DALL-E is an AI program that can create images from textual descriptions, and I was fascinated by its ability to understand and interpret human language. I believe that DALL-E has the ability to change the way we interact with computers, and I'm excited to see what the future holds for this technology. The following image was created using this technology:
+
+#### "DALL·E prompt: A data scientist analyzing developing visualizations for large amounts of data, sci-fi digital art"
 
 !["A data scientist analysing developing visualizations for large amounts of data, sci-fi digital art"](https://juansbg.netlify.app/about/DALL%C2%B7E%20A%20data%20scientist%20analysing%20developing%20visualizations%20for%20large%20amounts%20of%20data,%20sci-fi%20digital%20art.png)
