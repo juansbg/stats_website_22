@@ -60,20 +60,20 @@ params:
   name: Your name
   navigation:
     button1:
-      - name: Get Started
+      - name: All Works
         url: works
-    button2:
-      - name: Log In
-        url: '#'
+    # button2:
+    #   - name: Log In
+    #     url: '#'
     links:
       - name: Home
         url: '#'
-      - name: Blogs
-        url: blogs
-      - name: Generic Blog
-        url: blogs/ipsum
-      - name: Elements
-        url: elements.html
+      - name: About Me
+        url: about/me
+      - name: My CV
+        url: about/cv
+      # - name: Elements
+      #   url: elements.html
     menu: Menu
     subtitle: 
     title: JUAN'S PORTFOLIO WEBSITE
