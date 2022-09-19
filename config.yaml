@@ -71,7 +71,7 @@ params:
       - name: About Me
         url: about/me
       - name: My CV
-        url: about/cv
+        url: about/cv/CV_JUAN_LBS_2022.pdf
       # - name: Elements
       #   url: elements.html
     menu: Menu
