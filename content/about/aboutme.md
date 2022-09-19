@@ -5,7 +5,7 @@ categories:
 date: "2017-10-31T21:28:43-05:00"
 description: ""
 draft: false
-image: skiing_trip.jpg
+image: hike.jpg
 keywords: ""
 slug: me
 title: A LITTLE ABOUT MYSELF
