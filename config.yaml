@@ -96,6 +96,10 @@ params:
         subtitle: Time series analysis of country GDP
         title: GDP COMPONENTS OVER TIME
         url: works/gdp
+      - image: climate.jpg
+        subtitle: Climate change and temperature anomalies over the years
+        title: CLIMATE CHANGE
+        url: works/climate
   two:
     buttonText: Get to know more!
     enable: yes
