@@ -13,7 +13,6 @@ output:
 editor_options: 
   markdown: 
     wrap: 72
-image: pic10.jpg
 ---
 
 ```{r, setup, include=FALSE}
