@@ -1678,7 +1678,7 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #9bf1ff !important;
+			color: #ffb39b !important;
 		}
 
 		a:active {
@@ -1975,8 +1975,8 @@
 		input[type="url"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #9bf1ff;
-			box-shadow: 0 0 0 2px #9bf1ff;
+			border-color: #ffb39b;
+			box-shadow: 0 0 0 2px #ffb39b;
 		}
 
 	.select-wrapper {
@@ -2080,7 +2080,7 @@
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
 			background: #ffffff;
-			border-color: #9bf1ff;
+			border-color: #ffb39b;
 			content: '\f00c';
 			/*color: #242943;*/
 			color: #007435;
@@ -2088,7 +2088,7 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			box-shadow: 0 0 0 2px #9bf1ff;
+			box-shadow: 0 0 0 2px #ffb39b;
 		}
 
 	input[type="radio"] + label:before {
@@ -2411,7 +2411,7 @@
 					}
 
 						ul.pagination li > .page.active:hover {
-							background-color: #9bf1ff;
+							background-color: #ffb39b;
 							/*color: #242943 !important;*/
 			        color: #007435 !important;
 						}
@@ -2565,8 +2565,8 @@
 		button:active,
 		.button:hover,
 		.button:active {
-			box-shadow: inset 0 0 0 2px #9bf1ff;
-			color: #9bf1ff;
+			box-shadow: inset 0 0 0 2px #ffb39b;
+			color: #ffb39b;
 		}
 
 		input[type="submit"]:active,
@@ -2712,7 +2712,7 @@
 			button.special:active,
 			.button.special:hover,
 			.button.special:active {
-				background-color: #9bf1ff;
+				background-color: #ffb39b;
 				/*color: #242943 !important;*/
 			  color: #007435 !important;
 			}
@@ -3186,7 +3186,8 @@
 			}
 
 			#header .logo:hover strong {
-				background-color: #9bf1ff;
+				/*background-color: #9bf1ff;*/
+				background-color: #ffb39b;
 			}
 
 			#header .logo:active strong {
