@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Juan</title>
+    <link>https://juansbg.netlify.app/</link>
+    <description>Recent content on Juan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 19 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://juansbg.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Climate change and temperature anomalies</title>
+      <link>https://juansbg.netlify.app/works/climate/</link>
+      <pubDate>Mon, 19 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://juansbg.netlify.app/works/climate/</guid>
+      <description>weather &amp;lt;- read_csv(&amp;quot;https://data.giss.nasa.gov/gistemp/tabledata_v4/NH.Ts+dSST.csv&amp;quot;, skip = 1, na = &amp;quot;***&amp;quot;) # SELECT YEAR, MONTHS AND PIVOT LONGER weather %&amp;gt;% select(1:13) %&amp;gt;% pivot_longer(2:13, names_to = &amp;quot;month&amp;quot;, values_to = &amp;quot;delta&amp;quot;) -&amp;gt; tidyweather Plotting Information tidyweather &amp;lt;- tidyweather %&amp;gt;% mutate(date = ymd(paste(as.character(Year), month, &amp;quot;1&amp;quot;)), month = month(date, label=TRUE), Year = year(date)) ggplot(tidyweather, aes(x=date, y = delta))+ geom_point()+ geom_smooth(color=&amp;quot;red&amp;quot;) + theme_bw() + labs ( title = &amp;quot;Weather Anomalies&amp;quot;, x = &amp;quot;Year&amp;quot;, y = &amp;quot;Delta&amp;quot; ) ggplot(tidyweather, aes(x=date, y = delta))+ geom_point()+ geom_smooth(color=&amp;quot;red&amp;quot;) + facet_wrap(~month) + theme_bw() + labs ( title = &amp;quot;Weather Anomalies&amp;quot;, x = &amp;quot;Year&amp;quot;, y = &amp;quot;Delta&amp;quot; ) There is no apparent difference between the effects of increasing temperature in monthly data.</description>
+    </item>
+    
+    <item>
+      <title>GDP Components Over Time and Among Countries</title>
+      <link>https://juansbg.netlify.app/works/gdp/</link>
+      <pubDate>Tue, 13 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://juansbg.netlify.app/works/gdp/</guid>
+      <description>At the risk of oversimplifying things, the main components of gross domestic product, GDP are personal consumption (C), business investment (I), government spending (G) and net exports (exports - imports). You can read more about GDP and the different approaches in calculating at the Wikipedia GDP page.
+The GDP data we will look at is from the United Nations’ National Accounts Main Aggregates Database, which contains estimates of total GDP and its components for all countries from 1970 to today.</description>
+    </item>
+    
+    <item>
+      <title>Omega Group PLC - Pay Discrimination Analysis</title>
+      <link>https://juansbg.netlify.app/works/omega/</link>
+      <pubDate>Tue, 13 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://juansbg.netlify.app/works/omega/</guid>
+      <description>At the last board meeting of Omega Group Plc., the headquarters of a large multinational company, the issue was raised that women were being discriminated in the company, in the sense that the salaries were not the same for male and female executives. A quick analysis of a sample of 50 employees (of which 24 men and 26 women) revealed that the average salary for men was about 8,700 higher than for women.</description>
+    </item>
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>https://juansbg.netlify.app/post/2020-12-01-r-rmarkdown/</link>
+      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
+      
+      <guid>https://juansbg.netlify.app/post/2020-12-01-r-rmarkdown/</guid>
+      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+You can embed an R code chunk like this:
+summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+    </item>
+    
+    <item>
+      <title>Aliquam</title>
+      <link>https://juansbg.netlify.app/blogs/aliquam/</link>
+      <pubDate>Tue, 31 Oct 2017 22:42:51 -0500</pubDate>
+      
+      <guid>https://juansbg.netlify.app/blogs/aliquam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tempus</title>
+      <link>https://juansbg.netlify.app/blogs/tempus/</link>
+      <pubDate>Tue, 31 Oct 2017 22:26:13 -0500</pubDate>
+      
+      <guid>https://juansbg.netlify.app/blogs/tempus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Magna</title>
+      <link>https://juansbg.netlify.app/blogs/magna/</link>
+      <pubDate>Tue, 31 Oct 2017 22:26:09 -0500</pubDate>
+      
+      <guid>https://juansbg.netlify.app/blogs/magna/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A LITTLE ABOUT MYSELF</title>
+      <link>https://juansbg.netlify.app/about/me/</link>
+      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
+      
+      <guid>https://juansbg.netlify.app/about/me/</guid>
+      <description>Hi, my name is Juan and I&amp;rsquo;m glad you&amp;rsquo;re here to learn more about me. I was originally born in the United States, and lived there for many years before moving to Madrid, Spain to study high school and university.
+In Madrid I did took two undergraduate degrees in electrical engineering and business analytics, and I also took some time to learn how to develop websites and apps as a hobby.</description>
+    </item>
+    
+    <item>
+      <title>Ipsum</title>
+      <link>https://juansbg.netlify.app/blogs/ipsum/</link>
+      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
+      
+      <guid>https://juansbg.netlify.app/blogs/ipsum/</guid>
+      <description>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</description>
+    </item>
+    
+  </channel>
+</rss>

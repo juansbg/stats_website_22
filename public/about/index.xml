@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About me on Juan</title>
+    <link>https://juansbg.netlify.app/about/</link>
+    <description>Recent content in About me on Juan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 31 Oct 2017 22:27:21 -0500</lastBuildDate><atom:link href="https://juansbg.netlify.app/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A LITTLE ABOUT MYSELF</title>
+      <link>https://juansbg.netlify.app/about/me/</link>
+      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
+      
+      <guid>https://juansbg.netlify.app/about/me/</guid>
+      <description>Hi, my name is Juan and I&amp;rsquo;m glad you&amp;rsquo;re here to learn more about me. I was originally born in the United States, and lived there for many years before moving to Madrid, Spain to study high school and university.
+In Madrid I did took two undergraduate degrees in electrical engineering and business analytics, and I also took some time to learn how to develop websites and apps as a hobby.</description>
+    </item>
+    
+  </channel>
+</rss>
