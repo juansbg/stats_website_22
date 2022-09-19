@@ -32,6 +32,8 @@ My studies have allowed me to develop technical skills and abilities that will b
 -   Communicate my findings to those who may not be as familiar with the data
 -   Work in a team environment and handle multiple projects at one time
 
+Check out my full CV [here](https://juansbg.netlify.app/about/cv/CV_JUAN_LBS_2022.pdf)!
+
 ## Interests
 
 I've always been passionate about artificial intelligence. I remember being fascinated by the concept of creating a machine that could think and learn like a human. When I first heard about DALL-E, I was intrigued. DALL-E is an AI program that can create images from textual descriptions, and I was fascinated by its ability to understand and interpret human language. I believe that DALL-E has the ability to change the way we interact with computers, and I'm excited to see what the future holds for this technology. The following image was created using this technology:
