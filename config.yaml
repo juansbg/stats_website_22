@@ -100,6 +100,10 @@ params:
         subtitle: Climate change and temperature anomalies over the years
         title: CLIMATE CHANGE
         url: works/climate
+      - image: bikes.jpg
+        subtitle: Excess rentals in TfL bike sharing
+        title: TfL BIKES
+        url: works/bikes
   two:
     buttonText: Get to know more!
     enable: yes
