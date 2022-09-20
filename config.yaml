@@ -57,7 +57,7 @@ params:
         label: LinkedIn
         url: https://www.linkedin.com/in/juan-sanchez-blanco/
   image: ''
-  name: Your name
+  name: Juan
   navigation:
     button1:
       - name: All Works
